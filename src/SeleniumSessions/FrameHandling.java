@@ -39,13 +39,6 @@ public class FrameHandling {
 		
 		driver.findElement(By.xpath("//a[contains(text(),'Contacts')]")).click();
 		
-		
-		
-		
-		
-		
-		
-
-	}
+		}
 
 }

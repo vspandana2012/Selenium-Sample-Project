@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="45" started-at="2018-09-24T10:51:04Z" finished-at="2018-09-24T10:51:04Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="45" started-at="2018-09-24T10:51:04Z" finished-at="2018-09-24T10:51:04Z">
+      <class name="com.test.TestNgFeatures">
+        <test-method status="PASS" signature="LoginTest()[pri:0, instance:com.test.TestNgFeatures@394e1a0f]" name="LoginTest" duration-ms="9" started-at="2018-09-24T10:51:04Z" finished-at="2018-09-24T10:51:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method status="PASS" signature="HomePageTest()[pri:0, instance:com.test.TestNgFeatures@394e1a0f]" name="HomePageTest" duration-ms="3" started-at="2018-09-24T10:51:04Z" depends-on-methods="com.test.TestNgFeatures.LoginTest" finished-at="2018-09-24T10:51:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePageTest -->
+        <test-method status="PASS" signature="RegisterPageTest()[pri:0, instance:com.test.TestNgFeatures@394e1a0f]" name="RegisterPageTest" duration-ms="3" started-at="2018-09-24T10:51:04Z" depends-on-methods="com.test.TestNgFeatures.LoginTest" finished-at="2018-09-24T10:51:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterPageTest -->
+        <test-method status="PASS" signature="SearchPageTest()[pri:0, instance:com.test.TestNgFeatures@394e1a0f]" name="SearchPageTest" duration-ms="2" started-at="2018-09-24T10:51:04Z" depends-on-methods="com.test.TestNgFeatures.LoginTest" finished-at="2018-09-24T10:51:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchPageTest -->
+      </class> <!-- com.test.TestNgFeatures -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
